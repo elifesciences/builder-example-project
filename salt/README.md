@@ -1,4 +1,4 @@
-# project/salt
+# `./project/salt`
 
 This is the "top-level directory" for the `simple-project` Salt formula.
 
@@ -13,6 +13,16 @@ configure itself.
 
 The salt states take the values in the pillar file and uses them when 
 rendering the state files and templates in the `simple-project` directory.
+
+# `example.top`
+
+Builder will use the `example.top` file as the `top.sls` file in a masterless
+minion configuration.
+
+In a remote deployment, the contents of `example.top` will be incorporated 
+into the single `top.sls` on the master server. 
+
+# `example.pillar`
 
 Builder will use the `example.pillar` file and *any other pillar data* it can find
 when provisioning your application, including it's own private versions of your

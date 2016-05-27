@@ -1,1 +1,2 @@
-../example.pillar
+simple_project:
+    message: greetings from Pillar

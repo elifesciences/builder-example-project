@@ -1,4 +1,3 @@
 base:
     '*':
-        - elife
         - simple-project
